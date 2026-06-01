@@ -1,0 +1,344 @@
+/**/
+@media screen and (max-width: 1280px) {
+     p {
+          font-size: 18px !important;
+     }
+
+     a {
+          font-size: 14px !important;
+     }
+
+     .header-text h1 {
+          padding-top: 160px;
+     }
+
+     html,
+     body {
+          width: 100% !important;
+          max-width: 100vw !important;
+          overflow-x: hidden !important;
+          box-sizing: border-box !important;
+     }
+
+
+     img {
+          max-width: 100%;
+          height: auto;
+     }
+
+     .main-nav {
+          display: flex;
+          align-items: center;
+          gap: 35px;
+     }
+
+     .value-grid {
+          flex-direction: column;
+          display: flex;
+          gap: 24px;
+          align-items: stretch;
+     }
+
+     .value-item {
+          padding: 20px;
+          border-radius: 16px;
+     }
+
+     .price {
+          font-size: 30px;
+     }
+
+     .aboutbox-row {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-items: stretch;
+          gap: 30px;
+          /* margin: 80px 0 100px;*/
+     }
+
+     .aboutbox-row img {
+          width: 100%;
+     }
+}
+
+@media screen and (max-width: 992px) {
+     .menu {
+          justify-content: flex-start;
+     }
+
+     .menu ul li {
+          margin: 15px;
+     }
+
+     .main-nav {
+          display: flex;
+          flex-direction: column;
+          position: fixed !important;
+          top: 0 !important;
+          right: -100%;
+          pointer-events: none !important;
+          left: auto !important;
+          height: 100vh;
+          width: 75% !important;
+          transform: none;
+          background: hsl(0, 0%, 96%);
+          background-image: radial-gradient(circle at 85% 20%, rgba(74, 111, 165, 0.045) 0%, transparent 30%);
+          padding-top: 80px;
+          margin: 0 !important;
+          gap: 24px;
+          box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
+          z-index: 9999;
+
+          /* Animace */
+          transition: right 0.9s ease-in-out;
+     }
+
+     /* Třída, kterou přidám pomocí JS pro vysunutí */
+     .main-nav.open {
+          right: 0 !important;
+          pointer-events: auto !important;
+     }
+
+     .main-nav li a {
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+          color: #000;
+     }
+
+     .main-nav a {
+          font-size: 25px;
+          display: block;
+          padding: 15px 0;
+          letter-spacing: 1.3px;
+          transition: all 0.3s;
+     }
+
+     .mobile-nav-icon {
+          display: block;
+          position: absolute;
+          right: 20px;
+          top: 16px;
+          z-index: 10001;
+          /* Musí být nad menu*/
+          cursor: pointer;
+     }
+
+     .mobile-nav-icon img {
+          height: 40px;
+          width: auto;
+     }
+
+     .menu .logo {
+          margin-left: 60px;
+     }
+
+     .btn-primary {
+          margin-top: 20px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+     .menu {
+          justify-content: flex-start;
+     }
+
+     .menu ul li {
+          margin: 15px;
+     }
+
+     .main-nav {
+          display: flex;
+          flex-direction: column;
+          position: fixed !important;
+          top: 0 !important;
+          right: -100%;
+          pointer-events: none !important;
+          left: auto !important;
+          height: 100vh;
+          width: 75% !important;
+          transform: none;
+          background: hsl(0, 0%, 96%);
+          background-image: radial-gradient(circle at 85% 20%, rgba(74, 111, 165, 0.045) 0%, transparent 30%);
+          padding-top: 80px;
+          margin: 0 !important;
+          gap: 24px;
+          box-shadow: -4px 0 20px rgba(0, 0, 0, 0.1);
+          z-index: 9999;
+
+          /* Animace */
+          transition: right 0.9s ease-in-out;
+     }
+
+     /* Třída, kterou přidám pomocí JS pro vysunutí */
+     .main-nav.open {
+          right: 0 !important;
+          pointer-events: auto !important;
+     }
+
+     .main-nav li a {
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+          color: #000;
+     }
+
+     .main-nav a {
+          font-size: 25px;
+          display: block;
+          padding: 15px 0;
+          letter-spacing: 1.3px;
+          transition: all 0.3s;
+     }
+
+     .mobile-nav-icon {
+          display: block;
+          position: absolute;
+          right: 20px;
+          top: 16px;
+          z-index: 10001;
+          /* Musí být nad menu*/
+          cursor: pointer;
+     }
+
+     .mobile-nav-icon img {
+          height: 40px;
+          width: auto;
+     }
+
+     .menu .logo {
+          margin-left: 60px;
+     }
+
+     .btn-primary {
+          margin-top: 20px;
+     }
+
+     .clean-list ul {
+          grid-template-columns: 1fr !important;
+          padding: 20px;
+     }
+
+     .section p {
+          margin: 20px;
+          padding-left: 10px;
+          font-size: 14px;
+     }
+
+     .header-text h1 {
+          font-size: 55px;
+          width: 100%;
+          left: 0%;
+          transform: translate(0%, 0%);
+     }
+
+     h3 {
+          text-align: center;
+     }
+
+     .value-grid {
+          display: flex;
+          gap: 24px;
+          align-items: stretch;
+     }
+
+     .value-item {
+          padding: 20px;
+          border-radius: 16px;
+     }
+
+     .aboutbox-row img {
+          max-width: 100%;
+          height: auto;
+          overflow-x: hidden !important;
+     }
+
+     .aboutbox-row .text-content {
+          line-height: 1.7;
+     }
+
+     /* Responzivita pro menší obrazovky */
+     .contact-container {
+          flex-direction: column;
+          /* Položky pod sebou */
+     }
+
+     .contact-wrapper {
+          flex-direction: column;
+     }
+
+     .button .btn-another {
+          margin: 50px;
+     }
+
+     #cta p {
+          line-height: 1.8;
+     }
+}
+
+@media screen and (max-width: 480px) {
+     .button .btn-another {
+          padding: 8px;
+          height: auto;
+     }
+
+     .btn-second {
+          margin: 0 auto;
+          max-width: 100%;
+     }
+
+     .value-grid {
+          display: flex;
+          gap: 24px;
+          align-items: stretch;
+     }
+
+     .value-item {
+          padding: 20px;
+          border-radius: 16px;
+     }
+
+     .price {
+          font-size: 30px;
+     }
+
+     .cookie-bar {
+          left: 0;
+          max-width: 100%;
+     }
+
+     .contact-info {
+          width: 100%;
+     }
+
+     .contact-form {
+          width: 100%;
+          padding: 0;
+     }
+}
+
+@media screen and (max-width: 420px) {
+     .button .btn-another {
+          margin: 72px;
+          height: auto;
+     }
+
+     html,
+     body {
+          width: 100% !important;
+          max-width: 100vw !important;
+          overflow-x: hidden !important;
+          box-sizing: border-box !important;
+     }
+
+     p {
+          font-size: 14px !important;
+     }
+
+     a {
+          font-size: 16px !important;
+     }
+}
