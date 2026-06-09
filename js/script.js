@@ -109,7 +109,10 @@ form.addEventListener("submit", async function (e) {
 
           // Web3Forms vrací v odpovědi result.success = true
           if (result.success) {
-               message.innerHTML = "✅ Děkuji za zprávu. Ozvu se Vám co nejdříve.";
+               //  message.innerHTML = "✅ Děkuji za zprávu. Ozvu se Vám co nejdříve.";
+               setTimeout(() => {
+                    window.location.href = "dekuji.html";
+               }, 1000); // přesměrování po 1 sekundě
                form.reset();
           } else {
                message.innerHTML = "❌ " + (result.message || "Odeslání se nepovedlo. Zkuste to prosím znovu.");

@@ -268,6 +268,42 @@ ul li .btn-primary:hover {
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+.thanks {
+     text-align: center;
+     padding: 60px 20px;
+}
+
+.thanks h1 {
+     font-size: 32px;
+     color: #4a6fa5;
+     margin-bottom: 20px;
+}
+
+.thanks p {
+     font-size: 18px;
+     color: #666;
+     font-weight: 500;
+     margin-bottom: 30px;
+}
+
+.thanks a {
+     display: inline-block;
+     align-items: center;
+     justify-content: left;
+     background: #e95e03;
+     border: 1px solid #e95e03;
+     color: #fff;
+     padding: 5px 15px;
+     margin: 20px;
+     margin-top: 50px;
+     text-decoration: none !important;
+     letter-spacing: 2px;
+     font-weight: bold;
+     font-size: 15px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
 .btn .btn-another {
      display: inline-block;
      background: #e95e03;
@@ -281,7 +317,7 @@ ul li .btn-primary:hover {
      letter-spacing: 2px;
      font-weight: bold;
      font-size: 17px;
-     border-radius: 20px;
+     border-radius: 10px;
      cursor: pointer;
      animation: pulse-wave 5s infinite;
 }
